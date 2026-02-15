@@ -1,0 +1,7 @@
+interface:
+  display_name: "Arduino CLI Daemon gRPC"
+  short_description: "Operate daemon mode and gRPC integrations."
+  default_prompt: "Use $arduino-cli-daemon-grpc to run and troubleshoot Arduino CLI daemon or gRPC integrations."
+
+policy:
+  allow_implicit_invocation: true
