@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Arduino CLI Suite logo option C">
+  <defs>
+    <linearGradient id="bgC" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0A1D2B"/>
+      <stop offset="100%" stop-color="#214E73"/>
+    </linearGradient>
+    <linearGradient id="waveC" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F7C74A"/>
+      <stop offset="100%" stop-color="#E7643E"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1024" height="1024" rx="200" fill="url(#bgC)"/>
+  <rect x="190" y="242" width="644" height="540" rx="72" fill="#0E2A3A" stroke="#8FCFE3" stroke-width="14"/>
+
+  <g stroke="#8FCFE3" stroke-width="18" stroke-linecap="round">
+    <line x1="256" y1="312" x2="768" y2="312" opacity="0.5"/>
+    <line x1="256" y1="708" x2="768" y2="708" opacity="0.35"/>
+  </g>
+
+  <g fill="none" stroke="url(#waveC)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M320 586L422 440L510 560L596 456L704 586"/>
+  </g>
+
+  <g fill="none" stroke="#F7C74A" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M320 430L382 476L320 522"/>
+    <line x1="430" y1="522" x2="498" y2="522"/>
+  </g>
+
+  <g fill="#8FCFE3">
+    <circle cx="320" cy="374" r="10"/>
+    <circle cx="360" cy="374" r="10"/>
+    <circle cx="400" cy="374" r="10"/>
+  </g>
+</svg>
