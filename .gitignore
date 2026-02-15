@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Editor settings
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Keep only curated ICL artifacts under tmp/
+tmp/**
+!tmp/icl_capture/
+!tmp/icl_capture/capture_non_hardware.sh
+!tmp/icl_capture/capture_non_hardware_success.sh
+!tmp/icl_capture/capture_hardware_nano.sh
+!tmp/icl_capture/logs/
+tmp/icl_capture/logs/**
+!tmp/icl_capture/logs/non_hardware_success.log
+!tmp/icl_capture/logs/hardware_nano.log
+!tmp/icl_capture/logs/supplemental.log
