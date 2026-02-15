@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Arduino CLI Suite logo option B">
+  <defs>
+    <radialGradient id="bgB" cx="0.3" cy="0.25" r="0.9">
+      <stop offset="0%" stop-color="#1B5A63"/>
+      <stop offset="100%" stop-color="#0F2430"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1024" height="1024" rx="180" fill="url(#bgB)"/>
+
+  <path d="M512 164L784 322V638L512 796L240 638V322Z" fill="none" stroke="#8EDFD3" stroke-width="26"/>
+  <path d="M512 244L714 362V598L512 716L310 598V362Z" fill="#112E3A" stroke="#65C2B2" stroke-width="10"/>
+
+  <g stroke="#F6B043" stroke-width="24" stroke-linecap="round" fill="none">
+    <path d="M430 470L490 512L430 554"/>
+    <line x1="536" y1="554" x2="610" y2="554"/>
+  </g>
+
+  <g fill="#8EDFD3">
+    <circle cx="512" cy="362" r="16"/>
+    <circle cx="512" cy="598" r="16"/>
+    <circle cx="410" cy="422" r="16"/>
+    <circle cx="614" cy="422" r="16"/>
+    <circle cx="410" cy="538" r="16"/>
+    <circle cx="614" cy="538" r="16"/>
+  </g>
+
+  <g stroke="#8EDFD3" stroke-width="12" stroke-linecap="round">
+    <line x1="512" y1="378" x2="512" y2="430"/>
+    <line x1="512" y1="594" x2="512" y2="646"/>
+    <line x1="424" y1="432" x2="468" y2="470"/>
+    <line x1="600" y1="432" x2="556" y2="470"/>
+    <line x1="424" y1="528" x2="468" y2="504"/>
+    <line x1="600" y1="528" x2="556" y2="504"/>
+  </g>
+</svg>
