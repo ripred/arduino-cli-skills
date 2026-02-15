@@ -10,18 +10,18 @@ description: Unified orchestration for Arduino CLI tasks across discovery, setup
 4. Execute in dependency order, then return verification commands and next checks.
 
 # Domain Modules
-- Foundation and global flags: `../arduino-cli-foundation/SKILL.md`
-- Board and port discovery: `../arduino-cli-board-ops/SKILL.md`
-- Core platform lifecycle: `../arduino-cli-core-ops/SKILL.md`
-- Library lifecycle: `../arduino-cli-lib-ops/SKILL.md`
-- Sketch creation and packaging: `../arduino-cli-sketch-ops/SKILL.md`
-- Build, upload, and bootloader: `../arduino-cli-build-upload/SKILL.md`
-- Debug and monitor sessions: `../arduino-cli-debug-monitor/SKILL.md`
-- Config initialization and edits: `../arduino-cli-config/SKILL.md`
-- Profile operations: `../arduino-cli-profile-ops/SKILL.md`
-- Environment maintenance and upgrades: `../arduino-cli-maintenance/SKILL.md`
-- Daemon and gRPC operation: `../arduino-cli-daemon-grpc/SKILL.md`
-- Ecosystem specifications and compliance: `../arduino-cli-ecosystem-specs/SKILL.md`
+- Foundation and global flags: `references/foundation.md`
+- Board and port discovery: `references/board-ops.md`
+- Core platform lifecycle: `references/core-ops.md`
+- Library lifecycle: `references/lib-ops.md`
+- Sketch creation and packaging: `references/sketch-ops.md`
+- Build, upload, and bootloader: `references/build-upload.md`
+- Debug and monitor sessions: `references/debug-monitor.md`
+- Config initialization and edits: `references/config.md`
+- Profile operations: `references/profile-ops.md`
+- Environment maintenance and upgrades: `references/maintenance.md`
+- Daemon and gRPC operation: `references/daemon-grpc.md`
+- Ecosystem specifications and compliance: `references/ecosystem-specs.md`
 
 # Routing Rules
 - Prefer explicit `--fqbn` and `-p` when compiling, uploading, debugging, or monitoring.
