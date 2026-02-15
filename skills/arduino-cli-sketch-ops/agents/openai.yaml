@@ -1,0 +1,7 @@
+interface:
+  display_name: "Arduino CLI Sketch Ops"
+  short_description: "Create and package Arduino sketches."
+  default_prompt: "Use $arduino-cli-sketch-ops to create or archive this Arduino sketch project correctly."
+
+policy:
+  allow_implicit_invocation: true
