@@ -1,0 +1,7 @@
+interface:
+  display_name: "Arduino CLI Foundation"
+  short_description: "Global usage, flags, and command discovery."
+  default_prompt: "Use $arduino-cli-foundation to choose the right Arduino CLI command and global flags for this task."
+
+policy:
+  allow_implicit_invocation: true
