@@ -1,0 +1,7 @@
+interface:
+  display_name: "Arduino CLI Build and Upload"
+  short_description: "Compile binaries and deploy to hardware."
+  default_prompt: "Use $arduino-cli-build-upload to compile and upload this sketch with explicit board and port settings."
+
+policy:
+  allow_implicit_invocation: true
