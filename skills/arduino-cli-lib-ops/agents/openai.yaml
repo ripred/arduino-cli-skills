@@ -1,0 +1,7 @@
+interface:
+  display_name: "Arduino CLI Lib Ops"
+  short_description: "Search, install, and audit libraries."
+  default_prompt: "Use $arduino-cli-lib-ops to manage Arduino libraries and dependency state for this sketch."
+
+policy:
+  allow_implicit_invocation: true
