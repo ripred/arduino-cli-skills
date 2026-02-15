@@ -1,0 +1,7 @@
+interface:
+  display_name: "Arduino CLI Maintenance"
+  short_description: "Update, upgrade, and clean environment state."
+  default_prompt: "Use $arduino-cli-maintenance to refresh indexes and safely upgrade outdated Arduino CLI components."
+
+policy:
+  allow_implicit_invocation: true
