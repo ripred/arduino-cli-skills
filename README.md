@@ -45,10 +45,9 @@ Use $arduino-cli-suite to compile and upload this sketch to an Arduino Nano usin
 
 ## Publish Checklist
 
-- [ ] Validate all skills:
-  - `/Users/trent/.codex/skills/.system/skill-creator/scripts/quick_validate.py skills/<skill-name>`
-- [ ] Confirm public entrypoint is `skills/arduino-cli-suite`.
-- [ ] Confirm `skills/arduino-cli-suite/agents/openai.yaml` UI metadata is final.
-- [ ] Confirm all skill files include current ICL examples.
-- [ ] Run a clean install smoke test from GitHub path.
-- [ ] Make repository public and publish release notes/tag.
+- [x] Validate all skills with `/Users/trent/.codex/skills/.system/skill-creator/scripts/quick_validate.py` (13/13 valid, verified 2026-02-15).
+- [x] Confirm public entrypoint is `skills/arduino-cli-suite`.
+- [x] Confirm `skills/arduino-cli-suite/agents/openai.yaml` UI metadata is final (display name, prompt, icons, brand color).
+- [x] Confirm all skill files include current ICL examples (`# ICL Examples` present in all `skills/*/SKILL.md`).
+- [x] Run a clean install smoke test from GitHub path (verified via `install-skill-from-github.py --repo ripred/arduino-cli-skills --path skills/arduino-cli-suite` on 2026-02-15).
+- [x] Make repository public and publish release notes/tag (GitHub visibility: `PUBLIC`; release/tag: `v1.0.0`).
