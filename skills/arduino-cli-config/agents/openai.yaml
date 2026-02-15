@@ -1,0 +1,7 @@
+interface:
+  display_name: "Arduino CLI Config"
+  short_description: "Initialize, inspect, and edit CLI configuration."
+  default_prompt: "Use $arduino-cli-config to inspect and update Arduino CLI configuration keys safely."
+
+policy:
+  allow_implicit_invocation: true
