@@ -1,0 +1,7 @@
+interface:
+  display_name: "Arduino CLI Profile Ops"
+  short_description: "Define build profiles and profile libs."
+  default_prompt: "Use $arduino-cli-profile-ops to create and maintain sketch build profiles for this project."
+
+policy:
+  allow_implicit_invocation: true
