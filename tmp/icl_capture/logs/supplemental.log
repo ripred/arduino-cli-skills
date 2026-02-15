@@ -1,0 +1,40 @@
+
+### CMD: arduino-cli --config-dir /tmp/arduino_cli_suite_icl_data profile lib remove ArduinoJson@6.21.4 --profile uno-dev --sketch-path /Volumes/trent/Documents/Arduino/Arduino_CLI_Codex_Skills/tmp/icl_capture/project/icl_suite_demo_v2
+The following libraries were removed from the profile uno-dev:
+  - ArduinoJson@6.21.4
+
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir /tmp/arduino_cli_suite_icl_data profile lib add ArduinoJson@6.21.4 --profile uno-dev --sketch-path /Volumes/trent/Documents/Arduino/Arduino_CLI_Codex_Skills/tmp/icl_capture/project/icl_suite_demo_v2
+The following libraries were added to the profile uno-dev:
+  - ArduinoJson@6.21.4
+
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir /tmp/arduino_cli_suite_icl_data cache clean
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir /tmp/arduino_cli_suite_icl_data core download arduino:avr@1.8.7
+arduino:avr@1.8.7 0 B / 6.83 MiB    0.00%arduino:avr@1.8.7 0 B / 6.83 MiB    0.00%arduino:avr@1.8.7 downloaded
+arduino:arduinoOTA@1.3.0 0 B / 2.64 MiB    0.00%arduino:arduinoOTA@1.3.0 downloaded
+arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7 0 B / 34.99 MiB    0.00%arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7 0 B / 34.99 MiB    0.00%arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7 14.75 MiB / 34.99 MiB   42.15%arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7 downloaded
+arduino:avrdude@8.0.0-arduino1 0 B / 1.12 MiB    0.00%arduino:avrdude@8.0.0-arduino1 downloaded
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir /tmp/arduino_cli_suite_icl_data lib download ArduinoJson@6.21.4
+ArduinoJson@6.21.4 0 B / 479.24 KiB    0.00%ArduinoJson@6.21.4 downloaded
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir /tmp/arduino_cli_suite_icl_data monitor --describe -p /dev/cu.debug-console
+ID        Setting   Default Values
+baudrate  Baudrate  9600    300, 600, 750, 1200, 2400, 4800, 9600, 19200, 31250, 38400, 57600, 74880, 115200, 230400, 250000, 460800, 500000, 921600, 1000000, 2000000
+dtr       DTR       on      on, off
+bits      Data bits 8       5, 6, 7, 8, 9
+parity    Parity    none    none, even, odd, mark, space
+rts       RTS       on      on, off
+stop_bits Stop bits 1       1, 1.5, 2
+
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir /tmp/arduino_cli_suite_icl_data daemon --port 50052 (terminated after startup)
+### EXIT: 0
