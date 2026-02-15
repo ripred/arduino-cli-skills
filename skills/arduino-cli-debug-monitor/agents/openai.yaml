@@ -1,0 +1,7 @@
+interface:
+  display_name: "Arduino CLI Debug and Monitor"
+  short_description: "Run debug sessions and serial monitor IO."
+  default_prompt: "Use $arduino-cli-debug-monitor to set up debug checks and monitor serial output for this board."
+
+policy:
+  allow_implicit_invocation: true
