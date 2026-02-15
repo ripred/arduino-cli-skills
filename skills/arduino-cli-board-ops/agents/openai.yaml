@@ -1,0 +1,7 @@
+interface:
+  display_name: "Arduino CLI Board Ops"
+  short_description: "Discover boards, ports, and FQBN targets."
+  default_prompt: "Use $arduino-cli-board-ops to identify the board, port, and FQBN for this sketch workflow."
+
+policy:
+  allow_implicit_invocation: true
