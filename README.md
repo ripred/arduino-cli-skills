@@ -1,5 +1,7 @@
 # Arduino CLI Skills
 
+<img src="skills/arduino-cli-suite/assets/icon-small.svg" alt="Arduino CLI Suite logo" width="96" />
+
 This is the repository-level README for the public package.
 
 It contains a modular Arduino CLI skill collection and one recommended public entrypoint skill:
