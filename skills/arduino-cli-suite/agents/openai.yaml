@@ -1,0 +1,7 @@
+interface:
+  display_name: "Arduino CLI Suite"
+  short_description: "Unified end-to-end Arduino CLI workflows."
+  default_prompt: "Use $arduino-cli-suite to run this Arduino workflow end to end, including setup, build, upload, and diagnostics."
+
+policy:
+  allow_implicit_invocation: true
