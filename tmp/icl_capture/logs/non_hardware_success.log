@@ -1,0 +1,570 @@
+
+### CMD: rm -rf "/tmp/arduino_cli_suite_icl_data"
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" version
+arduino-cli  Version: 1.4.1 Commit: e39419312 Date: 2026-01-19T16:13:01Z
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" config init --overwrite
+Config file written to: /tmp/arduino_cli_suite_icl_data/arduino-cli.yaml
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" config dump
+board_manager:
+    additional_urls: []
+
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" core update-index
+Downloading index: library_index.tar.bz2 0 B / 3.75 MiB    0.00%Downloading index: library_index.tar.bz2 0 B / 3.75 MiB    0.00%Downloading index: library_index.tar.bz2 downloaded
+Downloading index: package_index.tar.bz2 0 B / 94.62 KiB    0.00%Downloading index: package_index.tar.bz2 downloaded
+Downloading missing tool builtin:ctags@5.8-arduino11...
+builtin:ctags@5.8-arduino11 0 B / 115.52 KiB    0.00%builtin:ctags@5.8-arduino11 downloaded
+Installing builtin:ctags@5.8-arduino11...
+Skipping tool configuration....
+builtin:ctags@5.8-arduino11 installed
+Downloading missing tool builtin:dfu-discovery@0.1.2...
+builtin:dfu-discovery@0.1.2 0 B / 1.73 MiB    0.00%builtin:dfu-discovery@0.1.2 downloaded
+Installing builtin:dfu-discovery@0.1.2...
+Skipping tool configuration....
+builtin:dfu-discovery@0.1.2 installed
+Downloading missing tool builtin:mdns-discovery@1.0.12...
+builtin:mdns-discovery@1.0.12 0 B / 2.96 MiB    0.00%builtin:mdns-discovery@1.0.12 downloaded
+Installing builtin:mdns-discovery@1.0.12...
+Skipping tool configuration....
+builtin:mdns-discovery@1.0.12 installed
+Downloading missing tool builtin:serial-discovery@1.4.3...
+builtin:serial-discovery@1.4.3 0 B / 1.87 MiB    0.00%builtin:serial-discovery@1.4.3 downloaded
+Installing builtin:serial-discovery@1.4.3...
+Skipping tool configuration....
+builtin:serial-discovery@1.4.3 installed
+Downloading missing tool builtin:serial-monitor@0.15.0...
+builtin:serial-monitor@0.15.0 0 B / 2.17 MiB    0.00%builtin:serial-monitor@0.15.0 downloaded
+Installing builtin:serial-monitor@0.15.0...
+Skipping tool configuration....
+builtin:serial-monitor@0.15.0 installed
+Downloading index: package_index.tar.bz2 0 B / 94.62 KiB    0.00%Downloading index: package_index.tar.bz2 downloaded
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" core search arduino:avr
+ID          Version Name
+arduino:avr 1.8.7   Arduino AVR Boards
+
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" core install arduino:avr
+Downloading packages...
+arduino:arduinoOTA@1.3.0 0 B / 2.64 MiB    0.00%arduino:arduinoOTA@1.3.0 downloaded
+arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7 0 B / 34.99 MiB    0.00%arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7 0 B / 34.99 MiB    0.00%arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7 14.75 MiB / 34.99 MiB   42.16%arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7 downloaded
+arduino:avrdude@8.0.0-arduino1 0 B / 1.12 MiB    0.00%arduino:avrdude@8.0.0-arduino1 downloaded
+arduino:avr@1.8.7 0 B / 6.83 MiB    0.00%arduino:avr@1.8.7 downloaded
+Installing arduino:arduinoOTA@1.3.0...
+Skipping tool configuration....
+arduino:arduinoOTA@1.3.0 installed
+Installing arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7...
+Skipping tool configuration....
+arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7 installed
+Installing arduino:avrdude@8.0.0-arduino1...
+Skipping tool configuration....
+arduino:avrdude@8.0.0-arduino1 installed
+Installing platform arduino:avr@1.8.7...
+Skipping platform configuration....
+Platform arduino:avr@1.8.7 installed
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" core list
+ID          Installed Latest Name
+arduino:avr 1.8.7     1.8.7  Arduino AVR Boards
+
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" board details -b arduino:avr:uno
+Board name:                Arduino UNO
+FQBN:                      arduino:avr:uno
+Board version:             1.8.7
+
+Official Arduino board:    ✔
+
+Identification properties: pid=0x0043
+                           vid=0x2341
+
+Identification properties: pid=0x0001
+                           vid=0x2341
+
+Identification properties: pid=0x0043
+                           vid=0x2A03
+
+Identification properties: pid=0x0243
+                           vid=0x2341
+
+Identification properties: pid=0x006A
+                           vid=0x2341
+
+Identification properties: board=uno
+
+Package name:              arduino
+Package maintainer:        Arduino
+Package URL:               https://downloads.arduino.cc/packages/package_index.tar.bz2
+Package website:           https://www.arduino.cc/
+Package online help:       https://www.arduino.cc/en/Reference/HomePage
+
+Platform name:             Arduino AVR Boards
+Platform category:         Arduino
+Platform architecture:     avr
+Platform URL:              https://downloads.arduino.cc/cores/staging/avr-1.8.7.tar.bz2
+Platform file name:        avr-1.8.7.tar.bz2
+Platform size (bytes):     7161883
+Platform checksum:         SHA-256:6ae7000b1b6c004c4a208d6d924a8046b417580e4a10cfd3f88930b6660a51db
+
+Required tool: arduino:arduinoOTA     1.3.0
+Required tool: arduino:avr-gcc        7.3.0-atmel3.6.1-arduino7
+Required tool: arduino:avrdude        8.0.0-arduino1
+
+Programmers:   ID                     Name
+               arduinoasisp           Arduino as ISP
+               arduinoasispatmega32u4 Arduino as ISP (ATmega32U4)
+               arduinoisp             ArduinoISP
+               arduinoisporg          ArduinoISP.org
+               atmel_ice              Atmel-ICE (AVR)
+               avrisp                 AVR ISP
+               avrispmkii             AVRISP mkII
+               buspirate              BusPirate as ISP
+               jtag3                  Atmel JTAGICE3 (JTAG mode)
+               jtag3isp               Atmel JTAGICE3 (ISP mode)
+               parallel               Parallel Programmer
+               stk500                 Atmel STK500 development board
+               usbGemma               Arduino Gemma
+               usbasp                 USBasp
+               usbtinyisp             USBtinyISP
+
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" lib update-index
+Downloading index: library_index.tar.bz2 0 B / 3.75 MiB    0.00%Downloading index: library_index.tar.bz2 downloaded
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" lib search ArduinoJson
+Name: "ArduinoJson"
+  Author: Benoit Blanchon <blog.benoitblanchon.fr>
+  Maintainer: Benoit Blanchon <blog.benoitblanchon.fr>
+  Sentence: A simple and efficient JSON library for embedded C++.
+  Paragraph: ⭐ 6953 stars on GitHub! Supports serialization, deserialization, MessagePack, streams, filtering, and more. Fully tested and documented.
+  Website: https://arduinojson.org/?utm_source=meta&utm_medium=library.properties
+  License: MIT
+  Category: Data Processing
+  Architecture: *
+  Types: Contributed
+  Versions: [4.0.0, 5.0.0, 5.0.1, 5.0.2, 5.0.3, 5.0.4, 5.0.5, 5.0.6, 5.0.7, 5.0.8, 5.1.0-beta.1, 5.1.0-beta.2, 5.1.0, 5.1.1, 5.2.0, 5.3.0, 5.4.0, 5.5.0, 5.5.1, 5.6.0, 5.6.1, 5.6.2, 5.6.3, 5.6.4, 5.6.5, 5.6.6, 5.6.7, 5.7.0, 5.7.1, 5.7.2, 5.7.3, 5.8.0, 5.8.1, 5.8.2, 5.8.3, 5.8.4, 5.9.0, 5.10.0, 5.10.1, 5.11.0, 5.11.1, 5.11.2, 5.12.0, 5.13.0, 5.13.1, 5.13.2, 5.13.3, 5.13.4, 5.13.5, 6.0.0-beta, 6.0.1-beta, 6.1.0-beta, 6.2.0-beta, 6.2.1-beta, 6.2.2-beta, 6.2.3-beta, 6.3.0-beta, 6.4.0-beta, 6.5.0-beta, 6.6.0-beta, 6.7.0-beta, 6.8.0-beta, 6.9.0, 6.9.1, 6.10.0, 6.10.1, 6.11.0, 6.11.1, 6.11.2, 6.11.3, 6.11.4, 6.11.5, 6.12.0, 6.13.0, 6.14.0, 6.14.1, 6.15.0, 6.15.1, 6.15.2, 6.16.0, 6.16.1, 6.17.0, 6.17.1, 6.17.2, 6.17.3, 6.18.0, 6.18.1, 6.18.2, 6.18.3, 6.18.4, 6.18.5, 6.19.0, 6.19.1, 6.19.2, 6.19.3, 6.19.4, 6.20.0, 6.20.1, 6.21.0, 6.21.1, 6.21.2, 6.21.3, 6.21.4, 6.21.5, 7.0.0, 7.0.1, 7.0.2, 7.0.3, 7.0.4, 7.1.0, 7.2.0, 7.2.1, 7.3.0, 7.3.1, 7.4.0, 7.4.1, 7.4.2]
+Name: "AITINKR_JSON_FIELDS"
+  Author: SchoolForAI
+  Maintainer: AITINKR
+  Sentence: A library to manage dynamic JSON fields for IoT devices.
+  Paragraph: This library allows adding, deleting, and managing dynamic JSON fields on IoT devices. It supports both float and string values, and it provides an easy way to convert data into JSON format for communication and storage in resource-constrained environments. Requires the ArduinoJson library to be installed.
+  Website: https://github.com/AITINKR/AITINKR_JSON_FIELDS
+  Category: Device Control
+  Architecture: *
+  Types: Contributed
+  Versions: [1.0.0, 1.0.1]
+  Dependencies: ArduinoJson
+Name: "CTBot"
+  Author: Stefano Ledda <shurillu@tiscalinet.it>
+  Maintainer: Stefano Ledda <shurillu@tiscalinet.it>
+  Sentence: Simple Arduino Telegram BOT library for ESP8266/ESP32
+  Paragraph: A simple, easy to use and strightforward Arduino library for using Telegram bots on ESP8266/ESP32 chips. In order to use this library you need the ArduinoJson library (release 5.13.5 or greater) installed. Inline and Reply keyboard supported. Localization messages supported. Fingerprint authentication and 2.5.0+ ESP8266 Toolchain/Library supported. NEW: ArduinoJson version 6 supperted!
+  Website: https://github.com/shurillu/CTBot
+  Category: Communication
+  Architecture: esp8266, esp32
+  Types: Contributed
+  Versions: [1.0.0, 1.1.0, 1.1.1, 1.2.0, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 2.0.0, 2.1.0, 2.1.2, 2.1.3, 2.1.4, 2.1.5, 2.1.6, 2.1.7, 2.1.8, 2.1.9, 2.1.10, 2.1.11, 2.1.12, 2.1.13, 2.1.14]
+Name: "ConfigStorage"
+  Author: Tost69
+  Maintainer: Tost69 <tomst1@gmx.de>
+  Sentence: Library to store configuration parameters in the file system using LittleFS or SPIFFS for ESP8266 and ESP32.
+  Paragraph: Using the ArduinoJson library the parameters are stored in memory as a JSON document and saved as a JSON file.
+  Website: https://github.com/tost69/ConfigStorage
+  License: MIT
+  Category: Data Storage
+  Architecture: esp8266, esp32
+  Types: Contributed
+  Versions: [0.0.1]
+  Provides includes: ConfigStorage.h
+  Dependencies: LittleFS_esp32, ArduinoJson
+Name: "Constellation"
+  Author: Sebastien Warin
+  Maintainer: Sebastien Warin
+  Sentence: Arduino/ESP library for Constellation 1.8
+  Paragraph: Arduino/ESP library for Constellation 1.8. This library use the Arduino JSON library (https://github.com/bblanchon/ArduinoJson) (version 5.x) to encode & decode JSON.
+  Website: https://developer.myconstellation.io
+  Category: Communication
+  Architecture: *
+  Types: Contributed
+  Versions: [2.1.16308, 2.2.16341, 2.2.17248, 2.4.18186]
+Name: "DarkSkySevenDay"
+  Author: JHershey69
+  Maintainer: JHershey69 <jamiehershey2@gmail.com>
+  Sentence: Current and Seven Day Weather Forecast Library for Arduino.
+  Paragraph: This library depends on HTTPClient and ArduinoJson.
+  Website: https://github.com/JHershey69/DarkSkySevenDay
+  Category: Uncategorized
+  Architecture: *
+  Types: Contributed
+  Versions: [1.0.0]
+  Provides includes: DarkSkySevenDay.h
+  Dependencies: HTTPClient, ArduinoJson
+Name: "ESP32_AI_Connect"
+  Author: AvantMaker <admin@avantmaker.com> (and AI Assistant)
+  Maintainer: AvantMaker <admin@avantmaker.com>
+  Sentence: A library for ESP32 to interact with various AI APIs (OpenAI, Gemini, DeepSeek, etc.).
+  Paragraph: Handles HTTP requests and JSON parsing for LLM chat completions including tool/function calls. Features memory management, error handling, and a unified interface across AI platforms. Requires ArduinoJson library. Uses insecure HTTPS by default for simplicity.
+  Website: https://github.com/AvantMaker/ESP32_AI_Connect
+  Category: Communication
+  Architecture: esp32
+  Types: Contributed
+  Versions: [0.5.1, 0.5.16]
+  Dependencies: ArduinoJson
+Name: "EasyMQTT"
+  Author: saveme1507 <asepsoo55@gmail.com>
+  Maintainer: asepsoo55@gmail.com <asepsoo55@gmail.com>
+  Sentence: Simple MQTT wrapper for ESP32, ESP8266, wemos with SSL, OTA, and Blynk-style usage
+  Paragraph: Supports SSL, OTA, auto reconnect, Blynk-style handler, and easy setup for MQTT.
+  Website: https://github.com/saveme1507/EasyMQTT
+  License: MIT
+  Category: Communication
+  Architecture: esp32, esp8266
+  Types: Contributed
+  Versions: [1.0.0, 1.0.1, 1.0.2, 1.0.5, 1.0.6, 1.0.7, 1.0.10]
+  Provides includes: EasyMQTT.h, Update.h, PubSubClient.h, ArduinoJson.h, ArduinoHttpClient.h
+  Dependencies: PubSubClient, ArduinoJson, ArduinoHttpClient
+Name: "Effortless-SPIFFS"
+  Author: thebigpotatoe
+  Maintainer: thebigpotatoe
+  Sentence: A class designed to make reading and storing data on the ESP8266 and ESP32 effortless.
+  Paragraph: Supports all basic types plus String, std::string, and ArduinoJSON.
+  Website: https://thebigpotatoe.github.io/Effortless-SPIFFS/
+  License: MIT
+  Category: Data Storage
+  Architecture: esp8266, esp32
+  Types: Contributed
+  Versions: [1.0.0, 1.1.1, 2.0.0, 2.0.1, 2.0.2, 2.1.0, 2.1.1, 2.1.2, 2.1.3, 2.1.4, 2.2.4, 2.3.0]
+Name: "IFTTTMaker"
+  Author: Brian Lough
+  Maintainer: Brian Lough <brian.d.lough@gmail.com>
+  Sentence: A helper library for triggering IFTTT maker events (ESP8266 & Wifi-101)
+  Paragraph: Use this library to simply trigger a IFTTT maker event, which can be used to send emails, tweets, notifications etc. Requires ArduinoJson library.
+  Website: https://github.com/witnessmenow/arduino-ifttt-maker
+  Category: Communication
+  Architecture: *
+  Types: Contributed
+  Versions: [1.0.0]
+Name: "Json Streaming Parser 2"
+  Author: Faptastic
+  Maintainer: Faptastic
+  Sentence: A character-by-character JSON parser to parse large JSON objects from HTTP or HTTPS on embedded devices.
+  Paragraph: Requires a custom finite state machine (handler) for each JSON document, so use  ArduinoJSON where possible. Library includes useful example sketches.
+  Website: https://github.com/mrcodetastic/json-streaming-parser2.git
+  Category: Data Processing
+  Architecture: *
+  Types: Contributed
+  Versions: [1.0.0, 2.0.1, 2.0.2, 2.0.3, 2.1.0, 2.1.1]
+Name: "Kaa IoT Platform"
+  Author: KaaIoT Team
+  Maintainer: KaaIoT <kaaproject.org>
+  Sentence: All in one library to communicate with Kaa IoT Platform
+  Paragraph: All in one library to communicate with Kaa IoT Platform. Requires PubSubClient and ArduinoJSON.
+  Website: https://github.com/kaaproject/kaa-arduino-sdk
+  Category: Other
+  Architecture: *
+  Types: Contributed
+  Versions: [0.1.0, 0.1.1, 0.1.3, 0.1.4, 0.1.5, 0.1.6]
+  Dependencies: PubSubClient, ArduinoJson
+Name: "MoonStruck"
+  Author: JHershey69
+  Maintainer: JHershey69 <jamiehershey2@gmail.com>
+  Sentence: Lunar Information Library for ESP32.
+  Paragraph: This library depends on ArduinoJson v6+
+  Website: https://github.com/JHershey69/MoonStruck
+  Category: Uncategorized
+  Architecture: esp32
+  Types: Contributed
+  Versions: [1.0.0]
+  Provides includes: MoonStruck.h
+  Dependencies: ArduinoJson
+Name: "NimBLE-DataPipe"
+  Author: Denis Machard
+  Maintainer: dmachard
+  Sentence: Lightweight BLE Data Pipe for ESP32. Transparent fragmentation for JSON and Binary buffers.
+  Paragraph: A lightweight transport layer that handles long BLE messages by automatically splitting and reassembling them. Supports structured JSON via ArduinoJson and raw binary modes.
+  Website: https://github.com/dmachard/NimBLE-DataPipe
+  Category: Communication
+  Architecture: esp32
+  Types: Contributed
+  Versions: [0.1.0]
+  Provides includes: NimBLE-DataPipe.h
+  Dependencies: NimBLE-Arduino, ArduinoJson
+Name: "OpenWeatherOneCall"
+  Author: JHershey69
+  Maintainer: JHershey69 <jamiehershey2@gmail.com>
+  Sentence: Weather Forecast Library for ESP32.
+  Paragraph: This library depends on ArduinoJson v7+
+  Website: https://github.com/JHershey69/OpenWeatherOneCall
+  Category: Uncategorized
+  Architecture: esp32
+  Types: Contributed
+  Versions: [1.0.0, 1.1.0, 1.1.1, 1.2.0, 1.2.1, 1.2.3, 1.3.0, 1.3.1, 1.3.2, 2.0.0, 2.0.1, 2.0.2, 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.0.4, 3.0.5, 3.1.0, 3.1.2, 3.1.3, 3.1.4, 3.1.5, 3.1.6, 3.1.7, 3.1.8, 3.1.9, 3.3.1, 3.3.3, 4.0.0, 4.0.2, 4.0.3]
+  Provides includes: OpenWeatherOneCall.h
+  Dependencies: ArduinoJson, ESP32Time
+Name: "PLCustomDevices"
+  Author: Oguz Kagan YAGLIOGLU
+  Maintainer: Oguz Kagan YAGLIOGLU <me@oguzkagan.xyz>
+  Sentence: [BETA] Perfect Lights Custom Devices official library
+  Paragraph: This library depends on PubSubClient and ArduinoJson.
+  Website: https://perfectlights.oguzkagan.xyz/
+  Category: Communication
+  Architecture: *
+  Types: Contributed
+  Versions: [0.1.0, 0.1.1, 0.2.0]
+  Provides includes: PLCustomDevices.h
+  Dependencies: PubSubClient, ArduinoJson
+Name: "Paperdink"
+  Author: PaperdInk
+  Maintainer: Rohit Gujarathi <rohit@paperd.ink>
+  Sentence: Arduino Library for Paperdink devices
+  Paragraph: Requires GxEPD2, Adafruit_GFX, ArduinoJson, Json Streaming Parser
+  Website: https://github.com/paperdink/PaperdInk-Library
+  Category: Display
+  Architecture: *
+  Types: Contributed
+  Versions: [0.0.1, 0.0.2, 0.0.3, 0.0.4, 0.0.5, 0.0.7]
+  Dependencies: Adafruit GFX Library, GxEPD2, ArduinoJson, Json Streaming Parser
+Name: "QuarkDB"
+  Author: Anirban <anirban@quarkifistream.in>
+  Maintainer: Anirban <anirban@quarkifistream.in>
+  Sentence: A No-SQL Json Document DB based on ArduinoJson 6 with command line interface and APIs for esp8266 and esp32 using SPIFFS
+  Paragraph: This library can be used in esp32 and esp8266 boards using SPIFFS file system. Once can create/delete/update documents in a list using APIs or command line interface in the serial interface to work like any other DB prompt using QUARKDB>
+  Website: https://qstream.quarkifi.com/quarkdb
+  Category: Data Storage
+  Architecture: esp8266, esp32
+  Types: Contributed
+  Versions: [1.0.1, 1.0.2, 1.0.3, 1.0.4]
+  Provides includes: QuarkDB.h
+  Dependencies: ArduinoJson
+Name: "RCLink"
+  Author: Little Man Builds
+  Maintainer: Little Man Builds <darren@ozzyimages.com>
+  Sentence: Header-only RC link with iBUS/SBUS transports, shaping/filters, JSON config, and easy failsafe/signature helpers.
+  Paragraph: RCLink is a clean, dependency-light RC link for Arduino/ESP32. It includes robust iBUS and SBUS transports, per-channel mapping and shaping (deadband, expo, invert, EMA), epsilon suppression, receiver-failsafe signature detection, and a tiny ArduinoJson-based loader. New: RcMacros adds one-line failsafe signature macros and helper builders.
+  Website: https://github.com/littlemanbuilds/RCLink
+  Category: Communication
+  Architecture: esp32
+  Types: Contributed
+  Versions: [1.0.0, 1.0.1, 1.0.2, 1.0.3]
+  Provides includes: RCLink.h
+  Dependencies: ArduinoJson
+Name: "WiFiTri"
+  Author: JHershey69
+  Maintainer: JHershey69 <jamiehershey2@gmail.com>
+  Sentence: WiFi Triangulation Library for ESP32.
+  Paragraph: This library depends on HTTPClient, ArduinoJson
+  Website: https://github.com/JHershey69/WiFiTri
+  Category: Uncategorized
+  Architecture: *
+  Types: Contributed
+  Versions: [1.0.0]
+  Provides includes: WiFiTri.h
+  Dependencies: HTTPClient, ArduinoJson
+Name: "YAMLDuino"
+  Author: tobozo <tobozo@users.noreply.github.com>
+  Maintainer: tobozo <tobozo@users.noreply.github.com>
+  Sentence: A simple and efficient YAML library for embedded C++
+  Paragraph: YAMLDuino is syntax friendly with ArduinoJson and cJSON, supports ✔ serialization, ✔ deserialization, ✔ conversion
+  Website: https://github.com/tobozo/YAMLDuino
+  License: MIT
+  Category: Data Processing
+  Architecture: esp32, esp8266, samd, rp2040, mbed_rp2040, mbed_nano, avr
+  Types: Contributed
+  Versions: [1.2.0, 1.2.1, 1.2.2, 1.2.3, 1.2.4, 1.2.5, 1.2.6, 1.2.7, 1.2.8, 1.2.9, 1.3.0, 1.4.0, 1.4.1, 1.4.2, 1.5.0]
+  Provides includes: ArduinoYaml.h, YAMLDuino.h
+  Dependencies: ArduinoJson
+Name: "cloud4rpi-esp-arduino"
+  Author: Cloud4RPi <team@cloud4rpi.io>
+  Maintainer: Cloud4RPi <team@cloud4rpi.io>
+  Sentence: Connect a board to the Cloud4RPi control panel using MQTT - https://cloud4rpi.io.
+  Paragraph: Cloud4RPi client library for ESP8266 and ESP32 based boards. Dependencies: ArduinoJson, PubSubClient.
+  Website: https://github.com/cloud4rpi/cloud4rpi-esp-arduino
+  Category: Communication
+  Architecture: esp8266, esp32
+  Types: Contributed
+  Versions: [0.0.3, 0.0.5, 0.0.6, 0.0.9, 0.0.10, 0.1.0, 1.0.1, 1.0.2, 1.0.3, 1.1.0]
+  Provides includes: Cloud4RPi.h
+  Dependencies: ArduinoJson, PubSubClient
+Name: "jsonlib"
+  Author: Justin Shaw wyojustin@gmail.com
+  Maintainer: Justin Shaw wyojustin@gmail.com
+  Sentence: A simple JSON parsing library.
+  Paragraph: This library is intended to be a light weight alternative to ArduinoJson.
+  Website: https://github.com/wyolum/jsonlib
+  Category: Communication
+  Architecture: *
+  Types: Contributed
+  Versions: [0.1.1]
+  Provides includes: jsonlib.h
+Name: "weathercall"
+  Author: François Crins <www.nuton.group>
+  Maintainer: François Crins  <www.nuton.group>
+  Sentence: An efficient openweather data caller.
+  Paragraph: Library to get current weather and forecast from openweather in various variables, inspired by dushyantahuja/SimpleWeather, tested on ESP32. 10 times 3h forecast in 14 weather forecast variable. 19 current weather variable.  Require ArduinoJson.
+  Website: https://github.com/FCrins1/WeatherCall
+  License: MIT
+  Category: Data Processing
+  Architecture: *
+  Types: Contributed
+  Versions: [1.0.0, 1.0.6, 1.0.7, 1.0.8, 1.0.10]
+
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" lib install ArduinoJson@6.21.4
+Already installed ArduinoJson@6.21.4
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" lib list
+Name        Installed  Available     Location Description
+ArduinoJson 6.21.4     7.4.2         user     A simple and efficient JSON library f...
+
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" lib deps ArduinoJson
+✕ ArduinoJson 7.4.2 is required but 6.21.4 is currently installed.
+
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" lib examples ArduinoJson
+Examples for library ArduinoJson
+  - /Users/trent/Documents/Arduino/libraries/ArduinoJson/examples/JsonConfigFile
+  - /Users/trent/Documents/Arduino/libraries/ArduinoJson/examples/JsonFilterExample
+  - /Users/trent/Documents/Arduino/libraries/ArduinoJson/examples/JsonGeneratorExample
+  - /Users/trent/Documents/Arduino/libraries/ArduinoJson/examples/JsonHttpClient
+  - /Users/trent/Documents/Arduino/libraries/ArduinoJson/examples/JsonParserExample
+  - /Users/trent/Documents/Arduino/libraries/ArduinoJson/examples/JsonServer
+  - /Users/trent/Documents/Arduino/libraries/ArduinoJson/examples/JsonUdpBeacon
+  - /Users/trent/Documents/Arduino/libraries/ArduinoJson/examples/MsgPackParser
+  - /Users/trent/Documents/Arduino/libraries/ArduinoJson/examples/ProgmemExample
+  - /Users/trent/Documents/Arduino/libraries/ArduinoJson/examples/StringExample
+
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" sketch new "/Volumes/trent/Documents/Arduino/Arduino_CLI_Codex_Skills/tmp/icl_capture/project/icl_suite_demo_v2"
+Error creating sketch: Can't create sketch: .ino file already exists
+### EXIT: 1
+
+### CMD: printf '%s\n' '#include <ArduinoJson.h>' '' 'const int LED_PIN = LED_BUILTIN;' 'StaticJsonDocument<128> statusDoc;' '' 'void setup() {' '  Serial.begin(9600);' '  pinMode(LED_PIN, OUTPUT);' '  statusDoc["profile"] = "uno-dev";' '  statusDoc["note"] = "icl example";' '}' '' 'void loop() {' '  digitalWrite(LED_PIN, !digitalRead(LED_PIN));' '  serializeJson(statusDoc, Serial);' '  Serial.println();' '  delay(500);' '}' > "/Volumes/trent/Documents/Arduino/Arduino_CLI_Codex_Skills/tmp/icl_capture/project/icl_suite_demo_v2/icl_suite_demo_v2.ino"
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" profile create --profile uno-dev --fqbn arduino:avr:uno --set-default "/Volumes/trent/Documents/Arduino/Arduino_CLI_Codex_Skills/tmp/icl_capture/project/icl_suite_demo_v2"
+Error initializing the project file: Profile 'uno-dev' already exists
+### EXIT: 1
+
+### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" profile lib add ArduinoJson@6.21.4 --profile uno-dev --sketch-path "/Volumes/trent/Documents/Arduino/Arduino_CLI_Codex_Skills/tmp/icl_capture/project/icl_suite_demo_v2"
+The following libraries were already present in the profile uno-dev and were not modified:
+  - ArduinoJson@6.21.4
+
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" profile set-default uno-dev --sketch-path "/Volumes/trent/Documents/Arduino/Arduino_CLI_Codex_Skills/tmp/icl_capture/project/icl_suite_demo_v2"
+Default profile set to: uno-dev
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" board list
+Port                            Protocol Type         Board Name    FQBN                Core
+10.102.67.134                   network  Network Port Arduino UNO Q arduino:zephyr:unoq arduino:zephyr
+/dev/cu.Bluetooth-Incoming-Port serial   Serial Port  Unknown
+/dev/cu.debug-console           serial   Serial Port  Unknown
+
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" board search uno
+Board Name            FQBN                Platform ID
+Arduino UNO           arduino:avr:uno     arduino:avr
+Arduino UNO Mini      arduino:avr:unomini arduino:avr
+Arduino UNO Q                             arduino:zephyr
+Arduino UNO R4 Minima                     arduino:renesas_uno
+Arduino UNO R4 WiFi                       arduino:renesas_uno
+Arduino UNO WiFi      arduino:avr:unowifi arduino:avr
+Arduino UNO WiFi Rev2                     arduino:megaavr
+
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" board listall uno
+Board Name       FQBN
+Arduino UNO      arduino:avr:uno
+Arduino UNO Mini arduino:avr:unomini
+Arduino UNO WiFi arduino:avr:unowifi
+
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" board attach -b arduino:avr:uno "/Volumes/trent/Documents/Arduino/Arduino_CLI_Codex_Skills/tmp/icl_capture/project/icl_suite_demo_v2"
+Default port set to: <nil>
+Default FQBN set to: arduino:avr:uno
+Default programmer set to: 
+
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" compile -b arduino:avr:uno --output-dir "/Volumes/trent/Documents/Arduino/Arduino_CLI_Codex_Skills/tmp/icl_capture/project/build_manual" "/Volumes/trent/Documents/Arduino/Arduino_CLI_Codex_Skills/tmp/icl_capture/project/icl_suite_demo_v2"
+Downloading platform arduino:avr@1.8.7...
+Downloading index: package_index.tar.bz2 0 B / 94.62 KiB    0.00%Downloading index: package_index.tar.bz2 downloaded
+arduino:avr@1.8.7 arduino:avr@1.8.7 already downloaded
+Installing platform arduino:avr@1.8.7...
+Downloading tool arduino:arduinoOTA@1.3.0...
+arduino:arduinoOTA@1.3.0 arduino:arduinoOTA@1.3.0 already downloaded
+Installing tool arduino:arduinoOTA@1.3.0...
+Downloading tool arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7...
+arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7 arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7 already downloaded
+Installing tool arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7...
+Downloading tool arduino:avrdude@8.0.0-arduino1...
+arduino:avrdude@8.0.0-arduino1 arduino:avrdude@8.0.0-arduino1 already downloaded
+Installing tool arduino:avrdude@8.0.0-arduino1...
+Downloading library ArduinoJson@6.21.4...
+ArduinoJson@6.21.4 0 B / 479.24 KiB    0.00%ArduinoJson@6.21.4 downloaded
+Installing library ArduinoJson@6.21.4...
+The library ArduinoJson has been automatically added from sketch project.
+Sketch uses 5332 bytes (16%) of program storage space. Maximum is 32256 bytes.
+Global variables use 402 bytes (19%) of dynamic memory, leaving 1646 bytes for local variables. Maximum is 2048 bytes.
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" compile -m uno-dev --output-dir "/Volumes/trent/Documents/Arduino/Arduino_CLI_Codex_Skills/tmp/icl_capture/project/build_profile" "/Volumes/trent/Documents/Arduino/Arduino_CLI_Codex_Skills/tmp/icl_capture/project/icl_suite_demo_v2"
+The library ArduinoJson has been automatically added from sketch project.
+Sketch uses 5332 bytes (16%) of program storage space. Maximum is 32256 bytes.
+Global variables use 402 bytes (19%) of dynamic memory, leaving 1646 bytes for local variables. Maximum is 2048 bytes.
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" compile -m uno-dev --dump-profile "/Volumes/trent/Documents/Arduino/Arduino_CLI_Codex_Skills/tmp/icl_capture/project/icl_suite_demo_v2"
+profiles:
+  uno:
+    fqbn: arduino:avr:uno
+    platforms:
+      - platform: arduino:avr (1.8.7)
+
+
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" outdated
+ID Name        Installed  Latest Location Description
+   ArduinoJson 6.21.4     7.4.2  user     A simple and efficient JSON library f...
+
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" update --show-outdated
+Downloading index: library_index.tar.bz2 0 B / 3.75 MiB    0.00%Downloading index: library_index.tar.bz2 0 B / 3.75 MiB    0.00%Downloading index: library_index.tar.bz2 downloaded
+Downloading index: package_index.tar.bz2 0 B / 94.62 KiB    0.00%Downloading index: package_index.tar.bz2 downloaded
+ID Name        Installed  Latest Location Description
+   ArduinoJson 6.21.4     7.4.2  user     A simple and efficient JSON library f...
+
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" debug check -b arduino:avr:uno "/Volumes/trent/Documents/Arduino/Arduino_CLI_Codex_Skills/tmp/icl_capture/project/icl_suite_demo_v2"
+The given board/programmer configuration does NOT support debugging.
+### EXIT: 0
+
+### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" sketch archive "/Volumes/trent/Documents/Arduino/Arduino_CLI_Codex_Skills/tmp/icl_capture/project/icl_suite_demo_v2"
+Error archiving: Archive already exists
+### EXIT: 1
