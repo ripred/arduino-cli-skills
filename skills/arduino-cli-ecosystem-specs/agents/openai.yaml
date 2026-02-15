@@ -1,0 +1,7 @@
+interface:
+  display_name: "Arduino CLI Ecosystem Specs"
+  short_description: "Apply package, platform, and plugin specs."
+  default_prompt: "Use $arduino-cli-ecosystem-specs to design or validate Arduino ecosystem spec-compliant artifacts."
+
+policy:
+  allow_implicit_invocation: true
