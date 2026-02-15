@@ -1,0 +1,7 @@
+interface:
+  display_name: "Arduino CLI Core Ops"
+  short_description: "Install and manage board platform cores."
+  default_prompt: "Use $arduino-cli-core-ops to search, install, and manage Arduino platform cores for this board."
+
+policy:
+  allow_implicit_invocation: true
