@@ -21,7 +21,7 @@ The suite skill routes to domain skills for board operations, core and library m
 Install from a GitHub repo path into Codex skills:
 
 ```bash
-/Users/trent/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
+$CODEX_HOME/skills/.system/skill-installer/scripts/install-skill-from-github.py \
   --repo <owner>/<repo> \
   --path skills/arduino-cli-suite
 ```
@@ -45,7 +45,7 @@ Use $arduino-cli-suite to compile and upload this sketch to an Arduino Nano usin
 
 ## Publish Checklist
 
-- [x] Validate all skills with `/Users/trent/.codex/skills/.system/skill-creator/scripts/quick_validate.py` (13/13 valid, verified 2026-02-15).
+- [x] Validate all skills with `$CODEX_HOME/skills/.system/skill-creator/scripts/quick_validate.py` (13/13 valid, verified 2026-02-15).
 - [x] Confirm public entrypoint is `skills/arduino-cli-suite`.
 - [x] Confirm `skills/arduino-cli-suite/agents/openai.yaml` UI metadata is final (display name, prompt, icons, brand color).
 - [x] Confirm all skill files include current ICL examples (`# ICL Examples` present in all `skills/*/SKILL.md`).

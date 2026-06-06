@@ -440,16 +440,16 @@ ArduinoJson 6.21.4     7.4.2         user     A simple and efficient JSON librar
 
 ### CMD: arduino-cli --config-dir "/tmp/arduino_cli_suite_icl_data" lib examples ArduinoJson
 Examples for library ArduinoJson
-  - /Users/trent/Documents/Arduino/libraries/ArduinoJson/examples/JsonConfigFile
-  - /Users/trent/Documents/Arduino/libraries/ArduinoJson/examples/JsonFilterExample
-  - /Users/trent/Documents/Arduino/libraries/ArduinoJson/examples/JsonGeneratorExample
-  - /Users/trent/Documents/Arduino/libraries/ArduinoJson/examples/JsonHttpClient
-  - /Users/trent/Documents/Arduino/libraries/ArduinoJson/examples/JsonParserExample
-  - /Users/trent/Documents/Arduino/libraries/ArduinoJson/examples/JsonServer
-  - /Users/trent/Documents/Arduino/libraries/ArduinoJson/examples/JsonUdpBeacon
-  - /Users/trent/Documents/Arduino/libraries/ArduinoJson/examples/MsgPackParser
-  - /Users/trent/Documents/Arduino/libraries/ArduinoJson/examples/ProgmemExample
-  - /Users/trent/Documents/Arduino/libraries/ArduinoJson/examples/StringExample
+  - $ARDUINO_SKETCHBOOK/libraries/ArduinoJson/examples/JsonConfigFile
+  - $ARDUINO_SKETCHBOOK/libraries/ArduinoJson/examples/JsonFilterExample
+  - $ARDUINO_SKETCHBOOK/libraries/ArduinoJson/examples/JsonGeneratorExample
+  - $ARDUINO_SKETCHBOOK/libraries/ArduinoJson/examples/JsonHttpClient
+  - $ARDUINO_SKETCHBOOK/libraries/ArduinoJson/examples/JsonParserExample
+  - $ARDUINO_SKETCHBOOK/libraries/ArduinoJson/examples/JsonServer
+  - $ARDUINO_SKETCHBOOK/libraries/ArduinoJson/examples/JsonUdpBeacon
+  - $ARDUINO_SKETCHBOOK/libraries/ArduinoJson/examples/MsgPackParser
+  - $ARDUINO_SKETCHBOOK/libraries/ArduinoJson/examples/ProgmemExample
+  - $ARDUINO_SKETCHBOOK/libraries/ArduinoJson/examples/StringExample
 
 ### EXIT: 0
 
