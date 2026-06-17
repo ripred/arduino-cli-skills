@@ -1,9 +1,9 @@
 # Arduino CLI Skills
 
-[![Release](https://img.shields.io/static/v1?style=flat&label=Release&message=v1.0.0&color=8250df&labelColor=24292f)](https://github.com/ripred/arduino-cli-skills/releases/latest)
-[![License](https://img.shields.io/static/v1?style=flat&label=License&message=MIT&color=0969da&labelColor=24292f)](https://github.com/ripred/arduino-cli-skills/blob/main/LICENSE)
-[![Stars](https://img.shields.io/static/v1?style=flat&label=Stars&message=4&color=bf8700&labelColor=24292f)](https://github.com/ripred/arduino-cli-skills/stargazers)
-[![Forks](https://img.shields.io/static/v1?style=flat&label=Forks&message=0&color=6f42c1&labelColor=24292f)](https://github.com/ripred/arduino-cli-skills/network/members)
+[![Release](https://flat.badgen.net/badge/Release/v1.0.0/8250df?labelColor=24292f)](https://github.com/ripred/arduino-cli-skills/releases/latest)
+[![License](https://flat.badgen.net/badge/License/MIT/0969da?labelColor=24292f)](https://github.com/ripred/arduino-cli-skills/blob/main/LICENSE)
+[![Stars](https://flat.badgen.net/badge/Stars/4/bf8700?labelColor=24292f)](https://github.com/ripred/arduino-cli-skills/stargazers)
+[![Forks](https://flat.badgen.net/badge/Forks/0/6f42c1?labelColor=24292f)](https://github.com/ripred/arduino-cli-skills/network/members)
 
 <img src="skills/arduino-cli-suite/assets/icon-small.svg" alt="Arduino CLI Suite logo" width="96" />
 
