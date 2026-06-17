@@ -1,5 +1,10 @@
 # Arduino CLI Skills
 
+[![GitHub release](https://flat.badgen.net/github/release/ripred/arduino-cli-skills)](https://github.com/ripred/arduino-cli-skills/releases/latest)
+[![License](https://flat.badgen.net/github/license/ripred/arduino-cli-skills)](https://github.com/ripred/arduino-cli-skills/blob/main/LICENSE)
+[![Stars](https://flat.badgen.net/github/stars/ripred/arduino-cli-skills)](https://github.com/ripred/arduino-cli-skills/stargazers)
+[![Forks](https://flat.badgen.net/github/forks/ripred/arduino-cli-skills)](https://github.com/ripred/arduino-cli-skills/network/members)
+
 <img src="skills/arduino-cli-suite/assets/icon-small.svg" alt="Arduino CLI Suite logo" width="96" />
 
 This is the repository-level README for the public package.
